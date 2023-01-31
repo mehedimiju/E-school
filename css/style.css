@@ -1,0 +1,246 @@
+/* font-family:Poppins */
+.hero-section{
+    background-color: #F0FFF0;
+    min-height: 100vh;}
+.navbar-brand{
+    width: 200px;
+}
+.nav-link{
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    margin-left: 10px;
+
+}
+.nav-link:hover{
+    color: #21B573
+}
+.Signup{
+    background-color: #21B573;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 33px;
+    line-height: 14px;
+    margin-left: 10px;
+}
+.Signup:hover{
+    background-color: #23a66b;
+    color: #fff;
+}
+.navbar-toggler{
+    color: #21B573;
+}
+.hero-content h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FD511A;
+}
+.hero-content h1{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;    
+}
+.hero-content span{
+    color: #21B573;
+}
+
+.hero-content p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;    
+}
+.hero-content .btn{
+    background-color: #21B573;
+    color: #fff;
+    padding: 12px 36px;
+    font-size: 16px;
+    border-radius: 33px;
+    line-height: 19px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* ==================
+FEATURE SECTION
+================== */
+.feature-content{
+    background: #F8FFFB;
+    border: none ;
+    cursor: pointer;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    
+}
+.feature-content:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.feature-content img{
+    width: 66px;
+    height: 76px;
+}
+.feature-content h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #413960;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.feature-content p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #585859;
+    text-align: center;
+    
+}
+/* =================
+COURSES SECTION
+================= */
+.courses-section{
+
+}
+.courses-header{}
+.courses-header h1{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #413960;
+    text-align: center;  
+    padding: 50px;  
+}
+
+.course{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 16px;
+}
+.course img{
+    width: 100%;
+}
+.course h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #413960;
+    margin-top: 10px;
+}
+.course p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #585859;    
+}
+.btn-course{
+    background-color: #21B573;
+    color: #fff;
+    padding: 12px 36px;
+    font-size: 16px;
+    border-radius: 33px;
+    line-height: 19px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    text-align: left;
+}
+.btn-course:hover{
+    background-color: #23a66b;
+    color: #fff;
+}
+.course ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.course ul li{
+    font-size: 14px;
+    color: #585859;
+}
+.course ul li i{
+    margin-right: 5px;
+}
+/* ================
+TESTIMONIAL SECTION
+==================== */
+.testimonial-section{}
+.testimonial-section h1{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    color: #000;
+    margin-bottom: 60px;    
+}
+.client {
+    width: 50%;
+    margin: auto;
+    text-align: right;
+}
+.client img{
+    
+}
+.testimonial-section p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #000;  
+    text-align: left;
+}
+/* =============
+FOOTER SECTION
+================ */
+footer{
+    background-color: #282531;
+    padding-top: 40px;
+}
+footer p{
+    color: #FFFFFF;
+    line-height: 30px;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    color: #FFFFFF;
+    line-height: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
